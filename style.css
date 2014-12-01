@@ -1,0 +1,205 @@
+body {
+    background: url("background.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    margin: 36px auto;
+    width: 90%;
+}
+#page {
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 0 auto 53px;
+    width: 93.75%;
+}
+#main {
+    float: right;
+    margin-right: 25%;
+    width: 50%;
+    padding-top: 1%;
+    color: white;
+    //background: grey;
+    //opacity: .5;
+}
+#other {
+    float: left;
+    width: 36.7778%;
+}
+header h1 {
+    padding: 0.8em 5.33333%;
+}
+nav {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+}
+nav li{
+    list-style-type: none;
+    padding: 5%;
+    border: medium solid grey;
+    color: grey;
+    background: grey;
+}
+nav a {
+    border: 17px solid grey;    
+    background-color: grey;
+    border-radius: 7px;
+    color: white;
+}
+nav ol li {
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 3em;
+}
+article h1, article p, article table {
+    padding: 0%;
+    //background-color: cyan;
+    color: white;
+    margin: 0%;
+}
+aside {
+    margin: 0 auto;
+    width: 69.7885%;
+}
+aside h2, aside p {
+    padding: 0.2em 8.48057%;
+}
+footer {
+    clear: both;
+    padding: 0.8em 5.33333%;
+}
+#form article#main, a, footer, p {
+    //background-color: cyan;
+    color: white;
+}
+#form article#main {
+    float: none;
+    margin: auto;
+    max-width: 600px;
+    text-align: left;
+}
+.wrapper {
+}
+fieldset {
+    border: 1px solid white;
+    clear: both;
+}
+fieldset.search {
+    float: left;
+}
+fieldset.search label {
+    display: block;
+    text-align: right;
+}
+fieldset.search input, fieldset.search select {
+    width: 25em;
+}
+fieldset.buttons {
+    border: medium none;
+}
+fieldset.wrapper {
+    border: 0 none;
+    margin: auto;
+}
+fieldset.wrapper legend {
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+fieldset.wrapper > legend {
+    font-size: 2em;
+}
+label {
+    color: white;
+    display: block;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+.mistake {
+    background-color: #800;
+    border: thin solid #000;
+    color: #fff;
+}
+#errors ol li {
+    color: #ff5555;
+}
+table {
+    border-collapse: collapse;
+}
+table, tr, td, th {
+    border-bottom: thin dashed black;
+    padding: 0.2em;
+}
+td:nth-child(4), td:nth-child(9) {
+    text-align: center;
+}
+tr:nth-child(2n+1) {
+    background: none repeat scroll 0 0 #ffffff;
+}
+tr:nth-child(2n) {
+    background: none repeat scroll 0 0 #ddffdd;
+}
+tr:hover {
+    background: none repeat scroll 0 0 #008800;
+    color: #baeeba;
+}
+tbody {
+}
+footer p {
+    //background-color: lightgreen;
+    font-size: medium;
+}
+footer {
+    //background-color: lightgreen;
+    border-radius: 0 0 15px 15px / 0 30px 30px;
+    font-size: medium;
+    width: 39%;
+    margin-left: 25%;
+
+
+}
+label{
+    padding: 1%;
+}
+
+table{
+    margin-left: 334px;
+    margin-top: 4%;
+    width:63%;
+}
+body h1 {
+    text-align: center;
+}
+body h2{
+    text-align: center;
+}
+#addemployee main p{
+    text-align: center;
+    width: 9%;
+    //background: white;
+}
+footer p{
+    text-align:center;
+}
+#main p{
+    color: white;
+    opacity: 1;
+}
+home h1,h2,p{
+    color: white;
+}
+body h1{
+    color: white;
+}
+footer{
+    position: fixed;
+    bottom: -2%;
+    right: 0%;
+}
+body table{
+    margin-left:26%;
+}
+#home p{
+    width:40%;
+    margin-left:32%;
+    text-align: center;
+}
